@@ -1,6 +1,6 @@
 # 🛍️ APTmerch – Purple Nike Style E-Commerce Homepage
 
-![Hero Banner](https://aswinash05.github.io/APTmerch_nike-theme/images/banner.jpg)
+<p align="center"><img src="https://github.com/aagarwal1012/Animated-Text-Kit/blob/master/display/cover.gif?raw=true"/></p>
 
 Welcome to **APTmerch**, a sleek, responsive Nike-style e-commerce homepage designed with a bold purple aesthetic. This website offers a clean shopping interface with product categories, highlights, add-to-cart transitions, and a user-friendly layout optimized for all devices.
 
