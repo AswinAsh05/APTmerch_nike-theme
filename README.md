@@ -23,7 +23,7 @@ Welcome to **APTmerch**, a sleek, responsive Nike-style e-commerce homepage desi
 ## 🖼️ Preview
 
 ### 💻 Desktop View
-![Desktop View](![nikedesktop](https://github.com/user-attachments/assets/306278e7-7871-42a4-b67b-abae8d46a127))(![nikedesktop1](https://github.com/user-attachments/assets/2d40dd1e-dd7d-4c0e-a9b6-bc322bd5d1fd)
+![Desktop View]![nikedesktop](https://github.com/user-attachments/assets/306278e7-7871-42a4-b67b-abae8d46a127)(![nikedesktop1](https://github.com/user-attachments/assets/2d40dd1e-dd7d-4c0e-a9b6-bc322bd5d1fd)
 )(![nikedesktop2](https://github.com/user-attachments/assets/73e67602-bb60-4acb-8662-7c3c22517bb8)
 )
 
