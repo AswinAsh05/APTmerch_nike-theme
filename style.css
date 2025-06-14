@@ -1,0 +1,351 @@
+/* APTmerch CSS - Responsive Purple Theme with Enhanced Hover Effects */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #222;
+  animation: fadeIn 0.7s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.top-bar {
+  background-color: #c97eff;
+  color: #fff;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #6f1fa0;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #e0a2ff;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+#search {
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#search:hover, #search:focus {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.fa-cart-shopping {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.hero {
+  height: 60vh;
+  background: url('images/banner.jpg') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.hero-overlay {
+  background: rgba(147, 44, 191, 0.7);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+
+.hero-text {
+  color: white;
+  max-width: 600px;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-text button {
+  padding: 0.8rem 1.5rem;
+  background: white;
+  color: #7b2cbf;
+  border: none;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.hero-text button:hover {
+  background: #e6c3ff;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  transform: scale(1.05);
+}
+
+.highlight-banner img {
+  width: 100vw;
+  height: auto;
+  display: block;
+  margin: 0 auto 2rem auto;
+  object-fit: cover;
+}
+
+.categories {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.category {
+  background: #ddb2fd;
+  padding: 2rem;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+.category:hover {
+  background: #e9c8ff;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  transform: scale(1.05);
+}
+
+.products {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.product {
+  background: #f8f8f8;
+  padding: 1rem;
+  border-radius: 12px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.product:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.product img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.product:hover img {
+  transform: scale(1.05);
+}
+
+.product h3 {
+  margin: 0.8rem 0 0.3rem;
+}
+
+.product p {
+  margin-bottom: 0.5rem;
+  color: #7b2cbf;
+  font-weight: 600;
+}
+
+.product button {
+  padding: 0.5rem 1rem;
+  background: #7b2cbf;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.product button:hover {
+  background: #9d4edd;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  transform: scale(1.05);
+}
+
+.promo {
+  background: #dbb5ff;
+  text-align: center;
+  padding: 1.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+footer {
+  background: #222;
+  color: white;
+  padding: 2rem 1rem;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.footer-top ul {
+  list-style: none;
+}
+
+.footer-top ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-top ul li a {
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-top ul li a:hover {
+  color: white;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-bottom .socials a {
+  color: #bbb;
+  margin: 0 0.5rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-bottom .socials a:hover {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .main-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    padding-top: 1rem;
+  }
+
+  .nav-icons {
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .category-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+}
+
+input, select, button, a button {
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+button:hover, a button:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transform: scale(1.05);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
